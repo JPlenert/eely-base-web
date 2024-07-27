@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "ES2017",
+        "lib": ["es2017", "dom"],
+        "declaration": true,
+        "declarationMap": true,
+        "outDir": "./dist",
+        "composite": true
+    },
+    "include": [
+        "src/**/*"
+      ],    
+}
