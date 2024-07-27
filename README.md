@@ -2,6 +2,8 @@
 
 Very basic base library for the web component for my Eely (https://www.eely.eu) projects.
 
+I don't us a existing javascript library because the page runs on a microcontroller that has very limited space and all resources must be loaded from the from the controller without any internet connection because of the AP mode.
+
 ## Remark
 
 This a private hobbyist (aka maker) project that helps me to ['sharpen the saw'](https://blog.codinghorror.com/sharpening-the-saw/) as a Director of a Software innovation unit.

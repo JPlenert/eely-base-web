@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "HtmlSingler/1.0.0": {
+        "dependencies": {
+          "NUglify": "1.20.3"
+        },
+        "runtime": {
+          "HtmlSingler.dll": {}
+        }
+      },
+      "NUglify/1.20.3": {
+        "runtime": {
+          "lib/net5.0/NUglify.dll": {
+            "assemblyVersion": "1.20.3.0",
+            "fileVersion": "1.20.3.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HtmlSingler/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NUglify/1.20.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CGiYPqo9AzsLFjvReYxM+fg88m90+6HLziQQCOE1qMZofFwEpREP3zbb0s9ENTIRZjOuMyheSMWvw7ffadTMzw==",
+      "path": "nuglify/1.20.3",
+      "hashPath": "nuglify.1.20.3.nupkg.sha512"
+    }
+  }
+}
