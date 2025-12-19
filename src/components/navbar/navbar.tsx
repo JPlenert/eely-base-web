@@ -1,0 +1,41 @@
+import { h, Component } from "../../features/preact";
+import { NavbarContext } from "./navbarContext";
+import './navbar.css';
+
+// Types for props
+interface NavbarProps {
+    headLineText: string;
+    url: string;
+    urlInfo: string;
+};
+
+// Types for state
+interface NavbarState {};
+
+export class Navbar extends Component<NavbarProps, NavbarState>{
+
+    constructor(props: NavbarProps) {
+        super(props);
+      }
+
+      private itemChanged(content: any) : void{
+        console.log("Clicked");
+      }
+
+      render() {
+        return (
+        <div>        
+            <nav class="navbar">
+                <a class="navbar-logo" href="#">{this.props.headLineText}&nbsp;</a>
+                    <div class="navbar-body" id="navbarNav">
+                        <NavbarContext.Provider value={{ itemChanged: this.itemChanged}}>
+                            <ul class="navbar-nav">{this.props.children}</ul>
+                        </NavbarContext.Provider>
+                    </div>
+                <a class="navbar-logo" href={this.props.url} target="_new">{this.props.urlInfo}&nbsp;</a>
+            </nav>                        
+        </div>);
+      }
+}
+
+export default Navbar;

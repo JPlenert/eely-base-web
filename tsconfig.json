@@ -1,13 +1,19 @@
+// When used as symbol link, esbuild whats to have an on tsconfig in here
 {
-    "compilerOptions": {
-        "target": "ES2017",
-        "lib": ["es2017", "dom"],
-        "declaration": true,
-        "declarationMap": true,
-        "outDir": "./dist",
-        "composite": true
-    },
-    "include": [
-        "src/**/*"
-      ],    
+  "compilerOptions": {
+    "target": "es2017",
+    "lib": ["es2017", "dom"],
+    "jsx": "react",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "moduleResolution": "node",
+
+
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
 }
+
+  
