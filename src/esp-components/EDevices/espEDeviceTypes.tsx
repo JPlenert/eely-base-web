@@ -2,7 +2,8 @@ import { FormDropDown, FormDropDownItem } from "../../components/form/formDropDo
 
 export class EspEDeviceTypes{
     public static readonly TYPE_shelly_3em = "shelly_3em";
-    public static readonly TYPE_shelly_em = "shelly_em";
+    public static readonly TYPE_shelly_em_gen1 = "shelly_em_gen1";
+    public static readonly TYPE_shelly_em_gen3 = "shelly_em_gen3";
     public static readonly TYPE_shelly_pro3em = "shelly_pro3em";
     public static readonly TYPE_shelly_proem = "shelly_proem";
     public static readonly TYPE_shelly_ht = "shelly_ht";
@@ -25,8 +26,10 @@ export class EspEDeviceTypes{
             ddItems.push(new FormDropDownItem("Tibber Prices", this.TYPE_tibber_price));
         if (typeFilter == null || typeFilter?.includes(this.TYPE_shelly_3em))
             ddItems.push(new FormDropDownItem("Shelly 3EM", this.TYPE_shelly_3em));
-        if (typeFilter == null || typeFilter?.includes(this.TYPE_shelly_em))
-            ddItems.push(new FormDropDownItem("Shelly EM", this.TYPE_shelly_em));
+        if (typeFilter == null || typeFilter?.includes(this.TYPE_shelly_em_gen1))
+            ddItems.push(new FormDropDownItem("Shelly EM Gen1", this.TYPE_shelly_em_gen1));
+        if (typeFilter == null || typeFilter?.includes(this.TYPE_shelly_em_gen3))
+            ddItems.push(new FormDropDownItem("Shelly EM Gen3", this.TYPE_shelly_em_gen3));
 
         return ddItems;
     }

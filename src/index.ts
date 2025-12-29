@@ -17,7 +17,6 @@ export { ModalController } from "./components/modal/modalController"
 export { default as SimpleCom } from "./features/simpleCom/simpleCom";
 
 export * from './features/preact';
-export * from './features/preact/hooks';
 
 export { CubitBase, CubitProvider, findCubit, findAndTryRegisterCubit, tryRegisterCubit } from './features/cubit'
 

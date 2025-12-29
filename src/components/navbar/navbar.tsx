@@ -1,5 +1,4 @@
 import { h, Component } from "../../features/preact";
-import { NavbarContext } from "./navbarContext";
 import './navbar.css';
 
 // Types for props
@@ -28,9 +27,7 @@ export class Navbar extends Component<NavbarProps, NavbarState>{
             <nav class="navbar">
                 <a class="navbar-logo" href="#">{this.props.headLineText}&nbsp;</a>
                     <div class="navbar-body" id="navbarNav">
-                        <NavbarContext.Provider value={{ itemChanged: this.itemChanged}}>
-                            <ul class="navbar-nav">{this.props.children}</ul>
-                        </NavbarContext.Provider>
+                        <ul class="navbar-nav">{this.props.children}</ul>
                     </div>
                 <a class="navbar-logo" href={this.props.url} target="_new">{this.props.urlInfo}&nbsp;</a>
             </nav>                        

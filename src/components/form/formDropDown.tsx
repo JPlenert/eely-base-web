@@ -1,5 +1,5 @@
 import { getGlobalId } from "../../features/helper/uniqueId";
-import { h, Component, Fragment } from "../../features/preact";
+import { h, Fragment } from "../../features/preact";
 import { FormFrame } from "./formFrame";
 import { FormBase } from "./formBase";
 
@@ -49,11 +49,12 @@ export class FormDropDown extends FormBase<FormDropDownProps, {}>{
     }
     render(){   
         if (!this.inited) {
-            if (this.props.value == null && this.props.items != null && this.props.items.length > 0){
+            let iValue = this.getInitialValue(this.props.value);
+            if (iValue == null && this.props.items != null && this.props.items.length > 0){
                 this.currentValue = this.props.items[0].value;
             }
             else{
-                this.currentValue = this.getInitialValue(this.props.value);
+                this.currentValue = iValue;
             }
             this.inited = true;
         }
