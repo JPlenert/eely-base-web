@@ -1,7 +1,7 @@
 = PREACT
 
 == Versions
-preact - V10.28.0
+preact - V10.28.1
 
 == License
 The MIT License (MIT)
@@ -39,7 +39,6 @@ Assumption: The plug-in is not initialized, because the builder (tested with esb
 
 = CHANGES
 
-* Imports: `preact` changed to the right pathes
-* Internal.d.ts renamed to Internal.ts
+* dom.d.ts: import `./index` instead of `preact`
 
 
