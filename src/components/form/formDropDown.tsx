@@ -1,3 +1,5 @@
+// Eely-Base-Web - (c) 2022-26 by Joerg Plenert | https://eely.eu
+
 import { getGlobalId } from "../../features/helper/uniqueId";
 import { h, Fragment } from "../../features/preact";
 import { FormFrame } from "./formFrame";

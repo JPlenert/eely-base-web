@@ -1,3 +1,5 @@
+// Eely-Base-Web - (c) 2022-26 by Joerg Plenert | https://eely.eu
+
 import { h, Component } from "../../features/preact";
 import './navbar.css';
 

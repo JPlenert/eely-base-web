@@ -1,3 +1,5 @@
+// Eely-Base-Web - (c) 2022-26 by Joerg Plenert | https://eely.eu
+
 export interface EspEDeviceInfo{
     device_last_error: string;
     device_name: string;

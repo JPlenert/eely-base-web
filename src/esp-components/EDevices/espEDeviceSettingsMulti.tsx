@@ -1,5 +1,7 @@
+// Eely-Base-Web - (c) 2022-26 by Joerg Plenert | https://eely.eu
+
 import { h, Component, Fragment } from "../../features/preact";
-import { EspEDeviceConfig, EspEDeviceShellyConfig } from "./espEDeviceConfig"
+import { EspEDeviceShellyConfig } from "./espEDeviceConfig"
 import { EspEDeviceShellySettings } from "./espEDeviceShellySettings"
 import { FormDropDown, FormDropDownItem } from "../../components/form/formDropDown"
 import { EspEDeviceTypes } from "./espEDeviceTypes";

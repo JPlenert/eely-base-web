@@ -1,3 +1,5 @@
+// Eely-Base-Web - (c) 2022-26 by Joerg Plenert | https://eely.eu
+
 import { FormInput } from "../../components/form/formInput";
 import { FormDropDown, FormDropDownItem } from "../../components/form/formDropDown";
 import { h, Component, Fragment } from "../../features/preact";

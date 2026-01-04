@@ -1,3 +1,5 @@
+// Eely-Base-Web - (c) 2022-26 by Joerg Plenert | https://eely.eu
+
 import { h, Component, Fragment } from "../../features/preact";
 import { EspEDeviceConfig, EspEDeviceShellyConfig } from "./espEDeviceConfig"
 import { EspEDeviceShellySettings } from "./espEDeviceShellySettings"
@@ -63,7 +65,7 @@ export class EspEDeviceSettingsSingle extends Component<EspEDeviceSettingsSingle
 
             return (
                 <>
-                    <FormDropDown headline="Meter type" value={ddType} items={this.ddItems} onChange={ (val) => this.onDDChange(val) } />
+                    <FormDropDown headline="Meter type" value={ddType} items={this.ddItems} onChange={ (val) => this.onDDChange(val as string) } />
                     { ddType != null && <EspEDeviceShellySettings config={this._devicesList![0] as EspEDeviceShellyConfig}/> }
                     <button type="submit" class="btn btn-primary" onClick={() => this.onApply()}>apply</button>
                 </>

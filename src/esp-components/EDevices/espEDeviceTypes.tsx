@@ -1,4 +1,6 @@
-import { FormDropDown, FormDropDownItem } from "../../components/form/formDropDown"
+// Eely-Base-Web - (c) 2022-26 by Joerg Plenert | https://eely.eu
+
+import { FormDropDownItem } from "../../components/form/formDropDown"
 
 export class EspEDeviceTypes{
     public static readonly TYPE_shelly_3em = "shelly_3em";

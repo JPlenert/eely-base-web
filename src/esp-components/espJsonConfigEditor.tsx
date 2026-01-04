@@ -1,3 +1,5 @@
+// Eely-Base-Web - (c) 2022-26 by Joerg Plenert | https://eely.eu
+
 import { FormTextArea } from "../components/form/formTextArea";
 import { ModalBox } from "../components/modal/modalBox";
 import { EspConfigCubit, EspConfigState } from "../esp/espConfigCubit";

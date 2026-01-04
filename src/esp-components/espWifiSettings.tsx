@@ -1,3 +1,5 @@
+// Eely-Base-Web - (c) 2022-26 by Joerg Plenert | https://eely.eu
+
 import { ModalBox } from "../components/modal/modalBox";
 import { h, Component, Fragment, createRef } from "../features/preact/index.js";
 import SimpleCom from "../features/simpleCom/simpleCom";

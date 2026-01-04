@@ -1,3 +1,5 @@
+// Eely-Base-Web - (c) 2022-26 by Joerg Plenert | https://eely.eu
+
 import { SimpleCom } from '../features/simpleCom/simpleCom'
 
 export class EspCom extends SimpleCom{

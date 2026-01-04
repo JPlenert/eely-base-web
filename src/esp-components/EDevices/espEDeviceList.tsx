@@ -1,4 +1,6 @@
-import { h, Component, Fragment, createRef } from "../../features/preact";
+// Eely-Base-Web - (c) 2022-26 by Joerg Plenert | https://eely.eu
+
+import { h, Component, Fragment } from "../../features/preact";
 import { EspEDeviceInfo } from "./espEDeviceConfig";
 
 export interface EspEDeviceListProps{

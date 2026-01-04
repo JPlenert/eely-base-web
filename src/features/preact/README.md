@@ -2,7 +2,6 @@
 
 == Versions
 preact - V10.25.2
-@preact/signals - V1.3.1
 
 == License
 The MIT License (MIT)
@@ -41,6 +40,5 @@ Assumption: The plug-in is not initialized, because the builder (tested with esb
 = CHANGES
 
 * Imports: `preact` changed to the right pathes
-* Internal.d.ts renamed to Internal.ts
 
 

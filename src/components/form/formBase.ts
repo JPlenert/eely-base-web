@@ -1,3 +1,5 @@
+// Eely-Base-Web - (c) 2022-26 by Joerg Plenert | https://eely.eu
+
 import { Component } from "../../features/preact";
 
 export abstract class FormBase<P, S> extends Component<P, S>{
