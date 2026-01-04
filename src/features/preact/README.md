@@ -1,8 +1,7 @@
 = PREACT
 
 == Versions
-preact - V10.25.2
-@preact/signals - V1.3.1
+preact - V10.28.0
 
 == License
 The MIT License (MIT)

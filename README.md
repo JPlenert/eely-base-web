@@ -11,9 +11,9 @@ Since I'm more a "backend guy" (white characters on black screen), this is a rea
 
 ## License
 
-eelyBase-WEB is distributed under the GPL v3 license:
+eely-Base-WEB is distributed under the GPL v3 license:
 
-    Copyright (C) 2022-2025 by Joerg Plenert
+    Copyright (C) 2022-2026 by Joerg Plenert
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
